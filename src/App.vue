@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Belajar Vue JS</h1>
+    <h1>Vue JS</h1>
 
     <!-- implementasi interpolation -->
     <h2>{{ nama }}</h2>
@@ -35,7 +35,7 @@
 
     <br />
 
-    <h3>Daftar Hobi:</h3>
+    <h3>Wishlist:</h3>
     <!-- contoh implementasi v-for -->
     <ul>
       <li v-for="(hobi, index) in daftarHobi" :key="index">
@@ -54,7 +54,7 @@ export default {
       umur: 20,
       gambar: "../assets/pfp.jpg",
       pesan: "",
-      daftarHobi: ["Ngoding", "Gaming"],
+      daftarHobi: ["Adizero EVO SL White Black", "Speedcat White Pink"],
     };
   },
   methods: {
